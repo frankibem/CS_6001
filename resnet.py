@@ -1,7 +1,7 @@
 import numpy as np
 from cntk.ops import relu, plus
 from cntk.initializer import he_normal
-from cntk.layers import BatchNormalization, Convolution, MaxPooling, Dropout
+from cntk.layers import BatchNormalization, Convolution
 
 
 def conv_bn(layer_input, filter_size, num_filters, strides, init=he_normal(), name=''):
