@@ -1,5 +1,6 @@
 .idea/
 .ipynb_checkpoints/
-dataset/
+dataset/sequential/
+dataset/stack/
 segments*/
 images/
